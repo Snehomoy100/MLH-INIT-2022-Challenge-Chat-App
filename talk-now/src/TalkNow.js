@@ -1,7 +1,7 @@
 import React from 'react';
 import "./TalkNow.css";
 import SideBar from './SideBar';
-
+import Chat from './Chat';
 
 const TalkNow = () => {
     return (
@@ -9,7 +9,7 @@ const TalkNow = () => {
 
             <SideBar></SideBar>
             
-            {/* <Chat></Chat> */}
+            <Chat></Chat>
         </div>
     );
 }
