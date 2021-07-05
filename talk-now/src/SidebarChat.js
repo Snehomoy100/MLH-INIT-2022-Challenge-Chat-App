@@ -8,8 +8,20 @@ const SidebarChat = () => {
     return (
         <div className="sidebarChat">
             <Avatar></Avatar>
+            <div className="sidebarChat__info">
+                <h3>
+                    Group Name
+                </h3>
+                <p>
+                    Last message sent..
+                </p>
+                <small>timestamp</small>
+            </div>
         </div>
     );
 };
+
+
+
 
 export default SidebarChat;
